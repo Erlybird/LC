@@ -40,7 +40,7 @@ class Solution {
         //Iterate through random pointers and get references through HashMap and put it to them
 
         while(curr != null){
-            copycurr.random = map.get(curr.random);
+           if(curr.random!= null) copycurr.random = map.get(curr.random);
             copycurr = copycurr.next;
             curr= curr.next;
         }
