@@ -1,0 +1,5 @@
+1. boolean arrays, the default value is false, but the array itself is initialized to null until you explicitly create the array and assign it a reference
+
+2.  arr = new boolean[H1_Helper][];
+        //initialzing with the number of rows, columns have to be instantiated separately for each row
+        // arr[i][j] represents an array with ith row and jth column
