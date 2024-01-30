@@ -3,3 +3,5 @@
 2.  arr = new boolean[H1_Helper][];
         //initialzing with the number of rows, columns have to be instantiated separately for each row
         // arr[i][j] represents an array with ith row and jth column
+
+3. In binary search the initialization of mid variable should be inside the while loop of (left <= right)
