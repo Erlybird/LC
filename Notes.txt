@@ -5,3 +5,7 @@
         // arr[i][j] represents an array with ith row and jth column
 
 3. In binary search the initialization of mid variable should be inside the while loop of (left <= right)
+
+4. Binary Search: if we are able to reduce the search space by half always without exception or increase the search space by 2x
+
+5. In Search in 2D sorted Matrix: mid element is found out by dividing the mid number with the no. of columns because we can know the row number only when we know the number of columns.
