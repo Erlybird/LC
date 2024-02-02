@@ -9,3 +9,11 @@
 4. Binary Search: if we are able to reduce the search space by half always without exception or increase the search space by 2x
 
 5. In Search in 2D sorted Matrix: mid element is found out by dividing the mid number with the no. of columns because we can know the row number only when we know the number of columns.
+
+6. primes[(int)(c-'a')] - will give the integer value of difference of ASCII values of char c and 'a', but , you can directly write it as primes[c-'a']
+
+7. In the problem containing products and you don't know how big the number could be use Double instead of Integer, because Integer may go out of bounds and may not give the results as expected.
+
+8. List<List<Integer> lst = new ArrayList<>(); - initiate like this for ArrayList<Arraylist<Integer>>
+
+9.
