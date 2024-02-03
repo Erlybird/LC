@@ -16,4 +16,5 @@
 
 8. List<List<Integer> lst = new ArrayList<>(); - initiate like this for ArrayList<Arraylist<Integer>>
 
-9.
+9. There are a total of 256 ASCII values and <space> is the first Ascii character and 'a' is the first alphabet
+
