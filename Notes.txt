@@ -28,5 +28,12 @@
 this can be written as 
 int val1 = (l1 != null)?l1.val:0;
 
-11.
+11.public string[] split( String regex, int limit){
+}
+The limit parameter can have 3 values 
+limit > 0 – If this is the case, then the pattern will be applied at most limit-1 times, the resulting array’s length will not be more than n, and the resulting array’s last entry will contain all input beyond the last matched pattern.
+limit < 0 – In this case, the pattern will be applied as many times as possible, and the resulting array can be of any size.
+limit = 0 – In this case, the pattern will be applied as many times as possible, the resulting array can be of any size, and trailing empty strings will be discarded.
+
+12. 
 	
