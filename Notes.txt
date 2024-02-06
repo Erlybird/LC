@@ -18,3 +18,15 @@
 
 9. There are a total of 256 ASCII values and <space> is the first Ascii character and 'a' is the first alphabet
 
+10. Shortcut - ternary operator
+   if(l1 != null) {
+	int val1 = l1.val;
+	} else{
+		val1 = 0;
+		}
+
+this can be written as 
+int val1 = (l1 != null)?l1.val:0;
+
+11.
+	
