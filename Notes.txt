@@ -35,5 +35,12 @@ limit > 0 – If this is the case, then the pattern will be applied at most limi
 limit < 0 – In this case, the pattern will be applied as many times as possible, and the resulting array can be of any size.
 limit = 0 – In this case, the pattern will be applied as many times as possible, the resulting array can be of any size, and trailing empty strings will be discarded.
 
-12. 
+12. we can create an arrayList directly with the keys of a Hashmap by using this
+	List<Charcter> aList = new ArrayList<>(map1.keySet());
+
+13. Sorting with comparator example
+	Collections.sort(array,(a,b) -> a-b) => this sorting gives ascending order 
+	similaryly .. collections.sort(array, (a.b) -> b-a) => this gives descending order but the time complexity would be NlogN.
+14.
+
 	
