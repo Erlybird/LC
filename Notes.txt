@@ -41,6 +41,11 @@ limit = 0 – In this case, the pattern will be applied as many times as possibl
 13. Sorting with comparator example
 	Collections.sort(array,(a,b) -> a-b) => this sorting gives ascending order 
 	similaryly .. collections.sort(array, (a.b) -> b-a) => this gives descending order but the time complexity would be NlogN.
-14.
+
+14.In DP- we always have to use exhaustive solution, if we are not using exhaustive solution , then it is not DP
+
+15. DP - we have to consider Matrix or Array, depending on the no. of dependent variables of each and every state in the problem. If it's one - then array; if it's two - then Matrix.
+
+
 
 	
