@@ -46,6 +46,10 @@ limit = 0 – In this case, the pattern will be applied as many times as possibl
 
 15. DP - we have to consider Matrix or Array, depending on the no. of dependent variables of each and every state in the problem. If it's one - then array; if it's two - then Matrix.
 
+16. Strings are immutable, in order to change the characters of String, we have to use StringBuilder or charArray. If using StringBuilder use the method StringBuilder s.setCharAt(idx i, char c)
+
+17. 
+
 
 
 	
