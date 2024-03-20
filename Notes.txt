@@ -48,7 +48,11 @@ limit = 0 – In this case, the pattern will be applied as many times as possibl
 
 16. Strings are immutable, in order to change the characters of String, we have to use StringBuilder or charArray. If using StringBuilder use the method StringBuilder s.setCharAt(idx i, char c)
 
-17. 
+17. In StringBuilder, we can have a reverse() fn to reverse the whole string
+
+18. for finding the numeric value of a char in a String, we can use Character.getNumericValue() function.
+
+
 
 
 
